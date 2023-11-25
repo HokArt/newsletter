@@ -6,11 +6,11 @@ import './styles/app.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/newsletter',
     element: <Main/>
   },
   {
-    path: '/success',
+    path: '/newsletter/success',
     element: <Success/>
   }
 ])
