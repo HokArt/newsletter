@@ -1,0 +1,11 @@
+.title {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 1.15em;
+    margin-bottom: -0.9em;
+  }
+}/*# sourceMappingURL=title.css.map */

@@ -1,0 +1,19 @@
+.edem {
+
+  .info {
+    display: flex;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .edem {
+
+    .info {
+      margin-top: -17px;
+    }
+  }
+}

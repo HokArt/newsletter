@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  font-size: 16px;
+  color: hsl(234, 29%, 20%);
+  background-color: white;
+  padding: 1em 2.2em 0.8em 2em;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 375px);
+    padding: inherit;
+    position: relative;
+  }
+  .container .container1 {
+    width: calc(100% - 20px);
+    position: absolute;
+    top: -4.2em;
+    width: calc(100% - 30px);
+    margin-left: 25px;
+  }
+  .container .container2 {
+    position: absolute;
+    top: -20em;
+  }
+}/*# sourceMappingURL=main.css.map */

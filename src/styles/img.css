@@ -1,0 +1,13 @@
+@media screen and (max-width: 1440px) {
+  .img .img2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img .img1 {
+    display: none;
+  }
+  .img .img2 {
+    display: inherit;
+  }
+}/*# sourceMappingURL=img.css.map */

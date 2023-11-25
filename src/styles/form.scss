@@ -1,0 +1,62 @@
+.form {
+  position: relative;
+
+  label {
+    font-weight: 700;
+  }
+
+  p {
+    position: absolute;
+    top: -1em;
+    left: -1.4em;
+    color: red;
+    width: calc(100%);
+    text-align: right;
+  }
+
+  input {
+    position: absolute;
+    top: 1.8em;
+    left: 0em;
+    width: calc(98% - 20px);
+    padding: .8em 0em .8em .4em;
+    border: 1px solid hsl(231, 7%, 60%);
+    outline: none;
+    border-radius: .5em;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  
+  ::placeholder {
+    font-weight: 700;
+  }
+
+  button {
+    position: absolute;
+    top: 6em;
+    left: 0em;
+    width: calc(100% - 20px);
+    padding: .8em;
+    border: none;
+    outline: none;
+    border-radius: .5em;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: tomato;
+    transition: all .2s;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .form {
+    button {
+      top: 5.5em;
+    }
+  }
+}

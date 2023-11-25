@@ -1,0 +1,12 @@
+.edem .info {
+  display: flex;
+}
+.edem .info img {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .edem .info {
+    margin-top: -17px;
+  }
+}/*# sourceMappingURL=information.css.map */
