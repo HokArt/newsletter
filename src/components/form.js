@@ -25,7 +25,7 @@ const Form = () => {
       errorColor.style.borderColor = 'red'
     } else if (isValidEmail) {
       setMessage('')
-      navigate('/newsletter/success')
+      navigate('/success')
     } else {
       setMessage('Valide email required')
       errorColor.style.backgroundColor = '#fae7ef'

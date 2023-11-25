@@ -6,14 +6,16 @@ import './styles/app.css';
 
 const router = createBrowserRouter([
   {
-    path: '/newsletter',
+    path: '/',
     element: <Main/>
   },
   {
-    path: '/newsletter/success',
+    path: '/success',
     element: <Success/>
   }
-])
+], {
+  basename: '/newsletter'
+})
 
 function App() {
   return (
